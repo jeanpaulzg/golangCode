@@ -1,0 +1,14 @@
+type Animal{
+    name string
+    specie string
+}
+
+type Birds{
+    Animal
+    region string
+}
+
+type mamiferos{
+    Animal
+    Zone string
+}
